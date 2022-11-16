@@ -1,4 +1,6 @@
 #!/bin/bash
+./mvnw spring-boot:run  
+$BUILD ID/stop
+bg
 
-JENKINS_NODE_COOKIE=dontKillMe ./mvnw spring-boot:run &
 
