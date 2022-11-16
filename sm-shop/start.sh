@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./mvnw spring-boot:run & > /dev/null &
+JENKINS_NODE_COOKIE==dontKillMe ./mvnw spring-boot:run & > /dev/null &
 
